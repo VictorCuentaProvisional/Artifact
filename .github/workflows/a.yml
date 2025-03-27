@@ -12,7 +12,7 @@ jobs:
         run: echo "Hola desde el workflow" > saludo.txt
 
       - name: Subir como artefacto
-        uses: actions/upload-artifact@v2.3.1
+        uses: actions/upload-artifact@2f49ec539d25a88ad65a08f05562c03c4b291bce
         with:
           name: saludo
           path: saludo.txt
