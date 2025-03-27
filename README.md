@@ -1,4 +1,3 @@
-
 Este proyecto es un test mínimo para verificar si la acción `upload-artifact` funciona correctamente
 en un entorno limpio (ej. nueva cuenta de GitHub, nuevo repo, `ubuntu-latest`).
 

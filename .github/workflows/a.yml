@@ -11,11 +11,9 @@ jobs:
       - name: Crear archivo de prueba
         run: echo "Hola desde el workflow" > saludo.txt
 
-      - name: Mostrar contenido del archivo (debug opcional)
-        run: cat saludo.txt
-
       - name: Subir como artefacto
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2.3.1
         with:
           name: saludo
           path: saludo.txt
+
